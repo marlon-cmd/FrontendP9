@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+ 
+body {
+  background-color: #000000;
+  margin: 0; /* Optional: to remove default margin */
+  padding: 0; /* Optional: to remove default padding */
+  font-family: Arial, sans-serif; /* Optional: set font */
+}
+
+.nav-link {
+  color: white;  /* Optional: Default color for links */
+}
+
+.nav-link:hover {
+  color: #ffcc00;  /* Optional: Hover color */
+}
+
+.active-link {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #060606;  /* You can change this to any color you prefer */
+}
+
+.navbar .nav-link.active-link {
+  text-decoration: underline !important;
+  font-weight: bold;
+  color: #060606 !important;
+}
+
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding-left: 0; /* Optional: Remove default padding */
+}
